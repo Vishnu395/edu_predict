@@ -34,10 +34,10 @@ export default function PredictionForm({ onPredict, loading }) {
             type="number"
             min="0.1"
             max="24"
-            step="0.1"
+            step="any"
             value={hours}
             onChange={(e) => setHours(e.target.value)}
-            placeholder="e.g. 5.5"
+            placeholder="e.g. 9.25"
             className="hours-input"
             required
           />
